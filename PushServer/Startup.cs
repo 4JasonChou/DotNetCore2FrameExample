@@ -34,8 +34,10 @@ namespace PushServer
             {
                 app.UseDeveloperExceptionPage();
             }
+            // Register Middleware about Catch every request and response .
             app.UseMiddleware<HttpLoggingMiddleware>();
-            app.UseMiddleware(typeof(ErrorHandlingMiddleware));
+            // Regisiter Middleware about Catch every Controller throw excetion and no throw 500 to res.
+            app.UseMiddleware(typeof(ErrorHandlingMiddleware)); 
             app.UseMvc();
             env.ConfigureNLog("./nlog.config");
             //add NLog to ASP.NET Core

@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
 using NLog.Web;
+using PushServer.Filter;
 
 namespace PushServer.Controllers
 {
@@ -25,9 +26,9 @@ namespace PushServer.Controllers
 
         // GET api/values
         [HttpGet]
+        [TypeFilter(typeof(AuthorizationFilter))]
         public IEnumerable<string> Get()
         {
-            throw new Exception("Self , ERROR");
             return new string[] { "value3", "value4" };
         }
 

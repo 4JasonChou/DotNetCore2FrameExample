@@ -12644,11 +12644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\Foya\\FoyaService\\DotNetCore\\PushServer\\PushServer.csproj",
+      "projectUniqueName": "d:\\Workspace\\Foya\\FoyaService\\DotNetCore\\PushServer\\PushServer.csproj",
       "projectName": "PushServer",
-      "projectPath": "D:\\Workspace\\Foya\\FoyaService\\DotNetCore\\PushServer\\PushServer.csproj",
+      "projectPath": "d:\\Workspace\\Foya\\FoyaService\\DotNetCore\\PushServer\\PushServer.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\Foya\\FoyaService\\DotNetCore\\PushServer\\obj\\",
+      "outputPath": "d:\\Workspace\\Foya\\FoyaService\\DotNetCore\\PushServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

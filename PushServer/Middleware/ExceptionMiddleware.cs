@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http.Internal;
 using Newtonsoft.Json;
-
+using PushServer.Exceptions;
 
 namespace WDev.AspNetCore.Middleware
 {
@@ -41,9 +41,26 @@ namespace WDev.AspNetCore.Middleware
         {
             var code = HttpStatusCode.InternalServerError; // 500 if unexpected
             var result = JsonConvert.SerializeObject(new { error = exception.Message });
+
+            if (exception is CustomException) {
+                var ex = (CustomException)exception;
+                var res = new FailedResopnse(ex.getStatusCode,ex.getStatusMsg);
+                code = (HttpStatusCode)res.Code;
+                result = JsonConvert.SerializeObject(res);
+            }
+
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)code;
             return context.Response.WriteAsync(result);
+        }
+    }
+
+    public class FailedResopnse {
+        public int Code;
+        public string Msg;
+        public FailedResopnse(int code,string msg) {
+            Code = code; 
+            Msg = msg;
         }
     }
 }

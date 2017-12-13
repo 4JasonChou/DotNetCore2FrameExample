@@ -9,3 +9,143 @@ Accept-Encoding:gzip, deflate, br
 2017-12-13 10:04:06.9819|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
 Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2343608)
  
+2017-12-13 10:40:56.1650|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 10:40:56.5086|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.4033448)
+ 
+2017-12-13 10:41:05.5918|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123YAYA
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:cbeecd62-7780-e821-6494-450ec6d688b1
+ 
+2017-12-13 10:41:05.7534|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:00.1618711)
+Content-Type:application/json; charset=utf-8
+["value3","value4"] 
+2017-12-13 10:41:25.8547|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123YAYA
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+ 
+2017-12-13 10:41:25.9538|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:00.1162115)
+Content-Type:application/json; charset=utf-8
+["value3","value4"] 
+2017-12-13 10:43:08.5645|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 10:43:08.7402|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2703057)
+ 
+2017-12-13 10:43:13.1893|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:8697da1d-dbae-53e6-6b15-5a14b25b8aee
+ 
+2017-12-13 10:43:28.6275|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(500) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:15.4383964)
+Content-Type:application/json
+{"error":"Auth failed"} 
+2017-12-13 11:03:29.1509|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 11:03:29.2875|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2083231)
+ 
+2017-12-13 11:03:35.3886|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:61379065-561f-0096-4c2a-b240aa61a199
+ 
+2017-12-13 11:03:42.8193|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(500) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:07.4243844)
+Content-Type:application/json
+{"error":"Object reference not set to an instance of an object."} 
+2017-12-13 11:04:22.8481|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 11:04:22.9870|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2049177)
+ 
+2017-12-13 11:04:26.2822|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:b84f2547-fe3d-de60-1faa-d74681d4fb6e
+ 
+2017-12-13 11:04:31.0706|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(500) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:04.7921751)
+Content-Type:application/json
+{"error":"Authorization is error."} 
+2017-12-13 11:10:33.1156|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 11:10:33.2322|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.1801026)
+ 
+2017-12-13 11:10:36.5053|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:bb777cbb-5899-f5c6-5382-969799a11646
+ 
+2017-12-13 11:10:41.0702|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(403) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:04.5658337)
+Content-Type:application/json
+{"Code":403,"Msg":"Authorization is error."} 
