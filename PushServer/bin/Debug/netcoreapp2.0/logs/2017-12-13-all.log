@@ -1,0 +1,7 @@
+2017-12-13 09:49:15.4405||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-13 09:49:15.6570||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 223.6395ms 404  
+2017-12-13 09:49:23.5190||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/api/PushMessage   
+2017-12-13 09:49:23.5559||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PushServer.Controllers.PushMessageController.Get (PushServer) with arguments ((null)) - ModelState is Valid 
+2017-12-13 09:49:23.5624||INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-13 09:49:23.6250||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PushServer.Controllers.PushMessageController.Get (PushServer) in 75.6084ms 
+2017-12-13 09:49:23.6250||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 109.4773ms 200 application/json; charset=utf-8 

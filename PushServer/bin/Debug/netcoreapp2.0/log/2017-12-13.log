@@ -1,0 +1,142 @@
+2017-12-13 10:04:06.5753-----------0001:PushServer Start Logging---------------------
+2017-12-13 10:04:06.3091| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-13 10:04:06.9004|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:gzip, deflate, br
+ 
+2017-12-13 10:04:06.9819|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2343608)
+ 
+2017-12-13 10:04:06.9819| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=693.2204, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 693.2204ms 404  
+2017-12-13 10:04:14.9923| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/api/PushMessage   
+2017-12-13 10:04:15.0368| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), Arguments=, ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Get (PushServer) with arguments ((null)) - ModelState is Valid 
+2017-12-13 10:04:15.1471| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-13 10:04:15.2181| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), ElapsedMilliseconds=190.2684, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Get (PushServer) in 190.2684ms 
+2017-12-13 10:04:15.2181| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=236.8031, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 236.8031ms 200 application/json; charset=utf-8 
+2017-12-13 10:04:36.4551| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/api/PushMessage   
+2017-12-13 10:04:36.4688| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), Arguments=, ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Get (PushServer) with arguments ((null)) - ModelState is Valid 
+2017-12-13 10:04:36.4907| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-13 10:04:36.5065| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), ElapsedMilliseconds=44.8768, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Get (PushServer) in 44.8768ms 
+2017-12-13 10:04:36.5174| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=62.3333, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 62.3333ms 200 application/json; charset=utf-8 
+2017-12-13 10:06:46.3808| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/api/PushMessage   
+2017-12-13 10:06:46.6242| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), Arguments=, ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Get (PushServer) with arguments ((null)) - ModelState is Valid 
+2017-12-13 10:06:46.7080| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), ElapsedMilliseconds=92.5648, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Get (PushServer) in 92.5648ms 
+2017-12-13 10:06:46.7740|ERROR ||Microsoft.AspNetCore.Server.Kestrel|  |ConnectionId=0HLA1POKSMN6M, TraceIdentifier=0HLA1POKSMN6M:00000001, EventId_Id=13, EventId_Name=, EventId=13
+Connection id "0HLA1POKSMN6M", Request id "0HLA1POKSMN6M:00000001": An unhandled exception was thrown by the application.System.Exception: Self , ERROR
+   at PushServer.Controllers.PushMessageController.Get() in D:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Controllers\PushMessageController.cs:line 30
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext() 
+2017-12-13 10:06:46.8517| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=476.5551, StatusCode=500, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 476.5551ms 500  
+2017-12-13 10:07:36.9994-----------0001:PushServer End   Logging---------------------
+2017-12-13 10:11:29.8767| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/api/PushMessage   
+2017-12-13 10:11:30.0609| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), Arguments=, ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Get (PushServer) with arguments ((null)) - ModelState is Valid 
+2017-12-13 10:11:30.0942| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), ElapsedMilliseconds=41.3364, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Get (PushServer) in 41.3364ms 
+2017-12-13 10:11:30.1244|ERROR ||Microsoft.AspNetCore.Server.Kestrel|  |ConnectionId=0HLA1PR9CHE07, TraceIdentifier=0HLA1PR9CHE07:00000001, EventId_Id=13, EventId_Name=, EventId=13
+Connection id "0HLA1PR9CHE07", Request id "0HLA1PR9CHE07:00000001": An unhandled exception was thrown by the application.System.Exception: Self , ERROR
+   at PushServer.Controllers.PushMessageController.Get() in D:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Controllers\PushMessageController.cs:line 30
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext() 
+2017-12-13 10:11:30.1945| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=322.0568, StatusCode=500, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 322.0568ms 500  
+2017-12-13 10:12:12.5926-----------0001:PushServer End   Logging---------------------
+2017-12-13 10:12:43.2353| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/api/PushMessage   
+2017-12-13 10:12:43.4509| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), Arguments=, ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Get (PushServer) with arguments ((null)) - ModelState is Valid 
+2017-12-13 10:12:43.4884| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), ElapsedMilliseconds=45.3066, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Get (PushServer) in 45.3066ms 
+2017-12-13 10:12:43.6111| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=380.9262, StatusCode=500, ContentType=application/json, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 380.9262ms 500 application/json 
+2017-12-13 10:13:18.6592-----------0001:PushServer End   Logging---------------------

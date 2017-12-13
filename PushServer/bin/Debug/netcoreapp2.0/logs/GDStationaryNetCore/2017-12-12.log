@@ -1,0 +1,21 @@
+[2017-12-12 13:43:44.5108][DESKTOP-K5EOA2A][Info] Request starting HTTP/1.1 GET http://localhost:5000/   
+[2017-12-12 13:43:45.0699][DESKTOP-K5EOA2A][Info] Request finished in 577.4764ms 404  
+[2017-12-12 13:43:55.0511][DESKTOP-K5EOA2A][Info] Request starting HTTP/1.1 GET http://localhost:5000/api/values/   
+[2017-12-12 13:43:55.1521][DESKTOP-K5EOA2A][Info] Executing action method PushServer.Controllers.ValuesController.Get (PushServer) with arguments ((null)) - ModelState is Valid 
+[2017-12-12 13:43:55.1561][DESKTOP-K5EOA2A][Info] Logger Test 
+[2017-12-12 13:43:55.1561][DESKTOP-K5EOA2A][Info] Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+[2017-12-12 13:43:55.5126][DESKTOP-K5EOA2A][Info] Executed action PushServer.Controllers.ValuesController.Get (PushServer) in 393.672ms 
+[2017-12-12 13:43:55.5175][DESKTOP-K5EOA2A][Info] Request finished in 466.2888ms 200 application/json; charset=utf-8 
+[2017-12-12 13:45:31.0272][DESKTOP-K5EOA2A][Info] Request starting HTTP/1.1 GET http://localhost:5000/api/values/   
+[2017-12-12 13:45:31.0401][DESKTOP-K5EOA2A][Info] Executing action method PushServer.Controllers.ValuesController.Get (PushServer) with arguments ((null)) - ModelState is Valid 
+[2017-12-12 13:45:31.0401][DESKTOP-K5EOA2A][Info] Logger Test 
+[2017-12-12 13:45:31.0401][DESKTOP-K5EOA2A][Info] Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+[2017-12-12 13:45:31.0401][DESKTOP-K5EOA2A][Info] Executed action PushServer.Controllers.ValuesController.Get (PushServer) in 4.2311ms 
+[2017-12-12 13:45:31.0401][DESKTOP-K5EOA2A][Info] Request finished in 16.0551ms 200 application/json; charset=utf-8 
+[2017-12-12 14:25:52.9273][DESKTOP-K5EOA2A][Info] Request starting HTTP/1.1 GET http://localhost:5000/   
+[2017-12-12 14:25:53.1513][DESKTOP-K5EOA2A][Info] Request finished in 229.4666ms 404  
+[2017-12-12 14:26:11.2973][DESKTOP-K5EOA2A][Info] Request starting HTTP/1.1 GET http://localhost:5000/api/PushMessage   
+[2017-12-12 14:26:11.3284][DESKTOP-K5EOA2A][Info] Executing action method PushServer.Controllers.PushMessageController.Get (PushServer) with arguments ((null)) - ModelState is Valid 
+[2017-12-12 14:26:11.3284][DESKTOP-K5EOA2A][Info] Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+[2017-12-12 14:26:11.3989][DESKTOP-K5EOA2A][Info] Executed action PushServer.Controllers.PushMessageController.Get (PushServer) in 75.6715ms 
+[2017-12-12 14:26:11.3989][DESKTOP-K5EOA2A][Info] Request finished in 103.7555ms 200 application/json; charset=utf-8 

@@ -1,0 +1,11 @@
+2017-12-13 10:04:06.9624-----------0001:PushServer Start Logging---------------------
+2017-12-13 10:04:06.9004|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:gzip, deflate, br
+ 
+2017-12-13 10:04:06.9819|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2343608)
+ 
