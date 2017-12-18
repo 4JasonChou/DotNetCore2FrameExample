@@ -1,0 +1,1767 @@
+2017-12-14 10:46:57.2301-----------0001:PushServer Start Logging---------------------
+ Time     :2017-12-14 10:46:56.9505
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 GET http://localhost:5000/  
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:46:57.3752
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request GET http://localhost:5000/ 
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests:1
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:46:57.8274
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:49)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Response(404) GET http://localhost:5000/  (Duration = 00:00:00.5818026)
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:46:57.8414
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ElapsedMilliseconds=897.6284, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+ exception:
+ message  :Request finished in 897.6284ms 404 
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:47:56.5739
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 GET http://localhost:5000/api/PushMessage  
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:47:56.5900
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Postman-Token:5a57cfe0-92fb-af5e-33be-8b759aabfae1
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:47:57.4367
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), Arguments=, ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+ exception:
+ message  :Executing action method PushServer.Controllers.PushMessageController.Get (PushServer) with arguments ((null)) - ModelState is Valid
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:47:57.9194
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :3$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ObjectResultExecuting
+ stack    :ObjectResult.ExecuteResultAsync => ObjectResultExecutor.ExecuteAsync => MvcCoreLoggerExtensions.ObjectResultExecuting
+ exception:
+ message  :Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:47:58.2116
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :3$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), ElapsedMilliseconds=1496.5533, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction
+ stack    :ExecutionContext.Run => <InvokeAsync>d__15.MoveNext => MvcCoreLoggerExtensions.ExecutedAction
+ exception:
+ message  :Executed action PushServer.Controllers.PushMessageController.Get (PushServer) in 1496.5533ms
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:47:58.2630
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :3$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware+<Invoke>d__3.MoveNext(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:49)
+ stack    :AwaitTaskContinuation.RunOrScheduleAction => ExecutionContext.Run => <Invoke>d__3.MoveNext
+ exception:
+ message  :Response(200) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:01.6814075)
+Content-Type:application/json; charset=utf-8
+[{"_id":{"timestamp":1513145195,"machine":5520659,"pid":-12558,"increment":9824375,"creationTime":"2017-12-13T06:06:35Z"},"messageSN":"201712130001","fcmAuth":"FIRSTFCMAUTH","deviceID":"DEVICEID","message_Data":"MessageData","message_Noti":"MessageNoti","status":"S","error":"ErrorMessage","pushTime":"2017-12-13 14:02:04.000","pushID":"PushID"}]
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:47:58.3135
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :3$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ElapsedMilliseconds=1739.6235, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+ exception:
+ message  :Request finished in 1739.6235ms 200 application/json; charset=utf-8
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:49:00.4605
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :18$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=317, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 317
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:49:00.5092
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :18$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:317
+Postman-Token:6393b560-c688-f8de-cdc0-83ba7106c6d3
+{
+    "messageSN": "201712140001",
+        "fcmAuth": "FIRSTFCMAUTH",
+        "deviceID": "DEVICEID",
+        "message_Data": "MessageData",
+        "message_Noti": "MessageNoti",
+        "status": "S",
+        "error": "ErrorMessage",
+        "pushTime": "2017-12-14 10:48:04.000",
+        "pushID": "PushID01"
+    }
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:49:00.8603
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :18$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.FPS_PushHistory", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+ exception:
+ message  :Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.FPS_PushHistory) - ModelState is Valid
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:49:01.0409
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :18$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ObjectResultExecuting
+ stack    :ObjectResult.ExecuteResultAsync => ObjectResultExecutor.ExecuteAsync => MvcCoreLoggerExtensions.ObjectResultExecuting
+ exception:
+ message  :Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:49:01.0642
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :18$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=241.7146, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction
+ stack    :ExecutionContext.Run => <InvokeAsync>d__15.MoveNext => MvcCoreLoggerExtensions.ExecutedAction
+ exception:
+ message  :Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 241.7146ms
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:49:01.0879
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :18$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware+<Invoke>d__3.MoveNext(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:49)
+ stack    :AwaitTaskContinuation.RunOrScheduleAction => ExecutionContext.Run => <Invoke>d__3.MoveNext
+ exception:
+ message  :Response(200) POST http://localhost:5000/api/PushMessage  (Duration = 00:00:00.6186871)
+Content-Type:application/json; charset=utf-8
+{"_id":{"timestamp":1513219740,"machine":12936392,"pid":7732,"increment":16541507,"creationTime":"2017-12-14T02:49:00Z"},"messageSN":null,"fcmAuth":null,"deviceID":null,"message_Data":null,"message_Noti":null,"status":null,"error":null,"pushTime":null,"pushID":null}
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:49:01.1263
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :18$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ElapsedMilliseconds=665.7844, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+ exception:
+ message  :Request finished in 665.7844ms 200 application/json; charset=utf-8
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:50:00.8549
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :18$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=317, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 317
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:50:00.8910
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :18$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:317
+Postman-Token:aba56004-153a-ebdd-8d28-e2bae94e8ec4
+{
+    "MessageSN": "201712140001",
+        "FcmAuth": "FIRSTFCMAUTH",
+        "DeviceID": "DEVICEID",
+        "Message_Data": "MessageData",
+        "Message_Noti": "MessageNoti",
+        "Status": "S",
+        "Error": "ErrorMessage",
+        "PushTime": "2017-12-14 10:48:04.000",
+        "PushID": "PushID01"
+    }
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:50:00.8910
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :18$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.FPS_PushHistory", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+ exception:
+ message  :Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.FPS_PushHistory) - ModelState is Valid
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:50:00.9255
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :23$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ObjectResultExecuting
+ stack    :ObjectResult.ExecuteResultAsync => ObjectResultExecutor.ExecuteAsync => MvcCoreLoggerExtensions.ObjectResultExecuting
+ exception:
+ message  :Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:50:00.9781
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :23$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=78.2413, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction
+ stack    :ExecutionContext.Run => <InvokeAsync>d__15.MoveNext => MvcCoreLoggerExtensions.ExecutedAction
+ exception:
+ message  :Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 78.2413ms
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:50:01.0417
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :23$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware+<Invoke>d__3.MoveNext(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:49)
+ stack    :AwaitTaskContinuation.RunOrScheduleAction => ExecutionContext.Run => <Invoke>d__3.MoveNext
+ exception:
+ message  :Response(200) POST http://localhost:5000/api/PushMessage  (Duration = 00:00:00.1580173)
+Content-Type:application/json; charset=utf-8
+{"_id":{"timestamp":1513219800,"machine":12936392,"pid":7732,"increment":16541508,"creationTime":"2017-12-14T02:50:00Z"},"messageSN":null,"fcmAuth":null,"deviceID":null,"message_Data":null,"message_Noti":null,"status":null,"error":null,"pushTime":null,"pushID":null}
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:50:01.1238
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :23$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ElapsedMilliseconds=269.6444, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+ exception:
+ message  :Request finished in 269.6444ms 200 application/json; charset=utf-8
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:51:06.0906
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :7$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=317, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 317
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:51:06.1134
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :7$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:317
+Postman-Token:2c9de44d-9016-ea06-df18-fd177c1c2f8f
+{
+    "MessageSN": "201712140002",
+        "FcmAuth": "FIRSTFCMAUTH",
+        "DeviceID": "DEVICEID",
+        "Message_Data": "MessageData",
+        "Message_Noti": "MessageNoti",
+        "Status": "S",
+        "Error": "ErrorMessage",
+        "PushTime": "2017-12-14 10:48:04.000",
+        "PushID": "PushID01"
+    }
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:51:06.1264
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :138804|dotnet
+ Thread   :7$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.FPS_PushHistory", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+ exception:
+ message  :Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.FPS_PushHistory) - ModelState is Valid
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:05.3963
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 GET http://localhost:5000/  
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:05.6518
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request GET http://localhost:5000/ 
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:05.9761
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:49)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Response(404) GET http://localhost:5000/  (Duration = 00:00:00.3725475)
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:05.9881
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ElapsedMilliseconds=609.8422, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+ exception:
+ message  :Request finished in 609.8422ms 404 
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:07.7276
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=330, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 330
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:07.7412
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:330
+Postman-Token:a5166f2e-c03b-df79-1a5e-8a9b9828c818
+{
+	"_id":null,
+    "MessageSN": "201712140002",
+        "FcmAuth": "FIRSTFCMAUTH",
+        "DeviceID": "DEVICEID",
+        "Message_Data": "MessageData",
+        "Message_Noti": "MessageNoti",
+        "Status": "S",
+        "Error": "ErrorMessage",
+        "PushTime": "2017-12-14 10:48:04.000",
+        "PushID": "PushID01"
+    }
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:08.1547
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.FPS_PushHistory", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+ exception:
+ message  :Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.FPS_PushHistory) - ModelState is Valid
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:08.1957
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ObjectResultExecuting
+ stack    :ObjectResult.ExecuteResultAsync => ObjectResultExecutor.ExecuteAsync => MvcCoreLoggerExtensions.ObjectResultExecuting
+ exception:
+ message  :Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:08.3991
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=588.0151, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeAsync>d__15.MoveNext => MvcCoreLoggerExtensions.ExecutedAction
+ exception:
+ message  :Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 588.0151ms
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:08.4277
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:49)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Response(200) POST http://localhost:5000/api/PushMessage  (Duration = 00:00:00.6895320)
+Content-Type:application/json; charset=utf-8
+{"_id":{"timestamp":0,"machine":0,"pid":0,"increment":0,"creationTime":"1970-01-01T00:00:00Z"},"messageSN":null,"fcmAuth":null,"deviceID":null,"message_Data":null,"message_Noti":null,"status":null,"error":null,"pushTime":null,"pushID":null}
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:53:08.4401
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ElapsedMilliseconds=712.5488, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+ exception:
+ message  :Request finished in 712.5488ms 200 application/json; charset=utf-8
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:54:22.9597
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :7$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=330, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 330
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:54:22.9752
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :7$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:330
+Postman-Token:089e3c0d-df78-9343-3a78-e2ffee1d6ccb
+{
+	"_id":null,
+    "MessageSN": "201712140002",
+        "FcmAuth": "FIRSTFCMAUTH",
+        "DeviceID": "DEVICEID",
+        "Message_Data": "MessageData",
+        "Message_Noti": "MessageNoti",
+        "Status": "S",
+        "Error": "ErrorMessage",
+        "PushTime": "2017-12-14 10:48:04.000",
+        "PushID": "PushID01"
+    }
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:54:23.0539
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :7$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.FPS_PushHistory", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+ exception:
+ message  :Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.FPS_PushHistory) - ModelState is Valid
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:54:23.0743
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :7$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ObjectResultExecuting
+ stack    :ObjectResult.ExecuteResultAsync => ObjectResultExecutor.ExecuteAsync => MvcCoreLoggerExtensions.ObjectResultExecuting
+ exception:
+ message  :Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:54:23.0949
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :7$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=106.5595, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeAsync>d__15.MoveNext => MvcCoreLoggerExtensions.ExecutedAction
+ exception:
+ message  :Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 106.5595ms
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:54:23.1062
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :7$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:49)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Response(200) POST http://localhost:5000/api/PushMessage  (Duration = 00:00:00.1375155)
+Content-Type:application/json; charset=utf-8
+{"_id":{"timestamp":0,"machine":0,"pid":0,"increment":0,"creationTime":"1970-01-01T00:00:00Z"},"messageSN":null,"fcmAuth":null,"deviceID":null,"message_Data":null,"message_Noti":null,"status":null,"error":null,"pushTime":null,"pushID":null}
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:54:23.1062
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :53560|dotnet
+ Thread   :7$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ElapsedMilliseconds=156.9768, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+ exception:
+ message  :Request finished in 156.9768ms 200 application/json; charset=utf-8
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:55:01.0063
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :135448|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 GET http://localhost:5000/  
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:55:01.2238
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :135448|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request GET http://localhost:5000/ 
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:55:01.3545
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :135448|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:49)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Response(404) GET http://localhost:5000/  (Duration = 00:00:00.1786546)
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:55:01.3661
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :135448|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ElapsedMilliseconds=370.4466, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+ exception:
+ message  :Request finished in 370.4466ms 404 
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:55:04.4106
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :135448|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=330, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 330
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:55:04.4232
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :135448|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:330
+Postman-Token:46198835-7337-85cb-eea1-b381d031f25d
+{
+	"_id":null,
+    "MessageSN": "201712140002",
+        "FcmAuth": "FIRSTFCMAUTH",
+        "DeviceID": "DEVICEID",
+        "Message_Data": "MessageData",
+        "Message_Noti": "MessageNoti",
+        "Status": "S",
+        "Error": "ErrorMessage",
+        "PushTime": "2017-12-14 10:48:04.000",
+        "PushID": "PushID01"
+    }
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:55:04.8476
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :135448|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.FPS_PushHistory", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+ exception:
+ message  :Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.FPS_PushHistory) - ModelState is Valid
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:56:50.3318
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :22464|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 GET http://localhost:5000/  
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:56:50.5719
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :22464|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request GET http://localhost:5000/ 
+Accept-Encoding:gzip, deflate, br
+Host:localhost:5000
+Upgrade-Insecure-Requests:1
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:56:50.6935
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :22464|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:49)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Response(404) GET http://localhost:5000/  (Duration = 00:00:00.1702582)
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:56:50.7054
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :22464|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ElapsedMilliseconds=379.1071, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+ exception:
+ message  :Request finished in 379.1071ms 404 
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:57:51.6438
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :22464|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=330, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 330
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:57:51.6692
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :22464|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:330
+Postman-Token:59c4d0ae-68d2-a93c-5a26-348ab34df710
+{
+	"_id":null,
+    "MessageSN": "201712140002",
+        "FcmAuth": "FIRSTFCMAUTH",
+        "DeviceID": "DEVICEID",
+        "Message_Data": "MessageData",
+        "Message_Noti": "MessageNoti",
+        "Status": "S",
+        "Error": "ErrorMessage",
+        "PushTime": "2017-12-14 10:48:04.000",
+        "PushID": "PushID01"
+    }
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:57:52.1776
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :22464|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="", ValidationState=Invalid, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+ exception:
+ message  :Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments () - ModelState is Invalid
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:59:08.5126
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :171920|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 GET http://localhost:5000/  
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:59:08.7217
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :171920|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request GET http://localhost:5000/ 
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests:1
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:59:09.0771
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :171920|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:49)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Response(404) GET http://localhost:5000/  (Duration = 00:00:00.3986746)
+
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:59:09.0910
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :171920|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ElapsedMilliseconds=584.6951, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+ exception:
+ message  :Request finished in 584.6951ms 404 
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:59:09.9763
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :171920|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Hosting.Internal.WebHost
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=330, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting
+ stack    :<ProcessRequestsAsync>d__2.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+ exception:
+ message  :Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 330
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:59:09.9889
+ Level    :DEBUG
+ Machine  :DESKTOP-K5EOA2A
+ Process  :171920|dotnet
+ Thread   :6$|{threadname}
+ Logger   :WDev.AspNetCore.Middleware.HttpLoggingMiddleware
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:
+ MVC-Action:
+ MVC-Controller:
+ call     :WDev.AspNetCore.Middleware.HttpLoggingMiddleware.Invoke(d:\Workspace\Foya\FoyaService\DotNetCore\PushServer\Middleware\HttpLoggingMiddleware.cs:39)
+ stack    :AsyncTaskMethodBuilder.Start => <Invoke>d__7.MoveNext => HttpLoggingMiddleware.Invoke
+ exception:
+ message  :Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Content-Length:330
+Postman-Token:b0e022f8-1772-857c-41ee-9c2b398bdadf
+{
+	"_id":null,
+    "messageSN": "201712140002",
+        "gcmAuth": "FIRSTFCMAUTH",
+        "deviceID": "DEVICEID",
+        "message_Data": "MessageData",
+        "message_Noti": "MessageNoti",
+        "status": "S",
+        "error": "ErrorMessage",
+        "pushTime": "2017-12-14 10:48:04.000",
+        "pushID": "PushID01"
+    }
+ ------------------------------------------------------------------------
+ Time     :2017-12-14 10:59:10.4837
+ Level    :INFO
+ Machine  :DESKTOP-K5EOA2A
+ Process  :171920|dotnet
+ Thread   :6$|{threadname}
+ Logger   :Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+ TraceIdentifier:
+ Host     :
+ Method   :
+ Request-Url:
+ Useragent:
+ isAuthenticated:
+ Request-ip:
+ Request-referrer:
+ Request-cookie:
+ all-event-properties:ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="", ValidationState=Invalid, EventId_Id=1, EventId_Name=, EventId=1
+ MVC-Action:
+ MVC-Controller:
+ call     :Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting
+ stack    :AsyncTaskMethodBuilder.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+ exception:
+ message  :Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments () - ModelState is Invalid
+ ------------------------------------------------------------------------

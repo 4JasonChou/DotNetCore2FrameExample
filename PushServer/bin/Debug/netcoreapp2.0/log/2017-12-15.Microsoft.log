@@ -1,0 +1,59 @@
+2017-12-15 09:48:17.9419-----------0001:PushServer Start Logging---------------------
+2017-12-15 09:48:17.8422| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-15 09:48:18.2624| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=426.7746, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 426.7746ms 404  
+2017-12-15 09:48:46.4496| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-15 09:48:46.5024| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=52.8008, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 52.8008ms 404  
+2017-12-15 09:49:18.3189| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage/ALL/2017122414/2017122415, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/api/PushMessage/ALL/2017122414/2017122415   
+2017-12-15 09:49:19.0244| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), Arguments="ALL", "2017122414", "2017122415", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Get (PushServer) with arguments (ALL, 2017122414, 2017122415) - ModelState is Valid 
+2017-12-15 09:49:19.5182| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-15 09:49:19.6568| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), ElapsedMilliseconds=1205.6253, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Get (PushServer) in 1205.6253ms 
+2017-12-15 09:49:19.7523| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=1433.3848, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 1433.3848ms 200 application/json; charset=utf-8 
+2017-12-15 10:25:48.3523| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-15 10:25:48.7377| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=393.6777, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 393.6777ms 404  
+2017-12-15 10:25:59.2837| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=70, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 70 
+2017-12-15 10:25:59.9190| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.PushMessage", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.PushMessage) - ModelState is Valid 
+2017-12-15 10:26:21.9615| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=22529.3111, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 22529.3111ms 
+2017-12-15 10:26:22.0932| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=22809.6395, StatusCode=500, ContentType=application/json, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 22809.6395ms 500 application/json 
+2017-12-15 10:29:03.6102| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-15 10:29:03.9514| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=363.6977, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 363.6977ms 404  
+2017-12-15 10:29:06.9732| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=70, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 70 
+2017-12-15 10:29:07.4215| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.PushMessage", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.PushMessage) - ModelState is Valid 
+2017-12-15 10:29:07.4620| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-15 10:29:07.5022| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=457.2395, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 457.2395ms 
+2017-12-15 10:29:07.5377| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=564.4937, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 564.4937ms 200 application/json; charset=utf-8 
+2017-12-15 10:30:37.3505| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-15 10:30:37.7159| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=382.0986, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 382.0986ms 404  
+2017-12-15 10:30:40.4983| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=70, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 70 
+2017-12-15 10:30:40.9551| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.PushMessage", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.PushMessage) - ModelState is Valid 
+2017-12-15 10:30:40.9971| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-15 10:30:41.0398| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=470.9475, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 470.9475ms 
+2017-12-15 10:30:41.0699| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=571.612, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 571.612ms 200 application/json; charset=utf-8 

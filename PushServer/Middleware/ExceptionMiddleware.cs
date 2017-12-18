@@ -45,9 +45,15 @@ namespace WDev.AspNetCore.Middleware
             if (exception is CustomException) {
                 var ex = (CustomException)exception;
                 var res = new FailedResopnse(ex.getStatusCode,ex.getStatusMsg);
-                code = (HttpStatusCode)res.Code;
+                code = (HttpStatusCode)res.ErrorCode;
                 result = JsonConvert.SerializeObject(res);
             }
+            else {
+                var res = new FailedResopnse(550,exception.Message);
+                code = (HttpStatusCode)res.ErrorCode;
+                result = JsonConvert.SerializeObject(res);
+            }
+
 
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)code;
@@ -56,11 +62,11 @@ namespace WDev.AspNetCore.Middleware
     }
 
     public class FailedResopnse {
-        public int Code;
-        public string Msg;
+        public int ErrorCode;
+        public string ErrorMsg;
         public FailedResopnse(int code,string msg) {
-            Code = code; 
-            Msg = msg;
+            ErrorCode = code; 
+            ErrorMsg = msg;
         }
     }
 }

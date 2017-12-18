@@ -8,7 +8,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
 using NLog.Web;
+using PushServer.Database;
+using PushServer.Logistic;
+using PushServer.Helpers;
+using PushServer.Database.Repository;
+using PushServer.Database.Repository.Interface;
+using PushServer.Model.ConfigOptions;
 using WDev.AspNetCore.Middleware;
+
 
 namespace PushServer
 {
@@ -25,6 +32,13 @@ namespace PushServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            //DI Config setting
+            ConfigStartup.RegisterConfigureSettingServices(Configuration,ref services);
+            //DI Repository
+            services.AddTransient<IFPS_PushHistoryRepository, FPS_PushHistoryRepository>();
+            //DI Logic
+            services.AddTransient<IPushMessageLogic, PushMessageLogic>();
+            services.AddTransient<SerialAndEncryption, SerialAndEncryption>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

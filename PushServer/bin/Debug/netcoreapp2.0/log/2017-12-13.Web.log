@@ -149,3 +149,236 @@ Postman-Token:bb777cbb-5899-f5c6-5382-969799a11646
 Response(403) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:04.5658337)
 Content-Type:application/json
 {"Code":403,"Msg":"Authorization is error."} 
+2017-12-13 15:42:54.0607|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:gzip, deflate, br
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 15:42:54.3631|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.4947128)
+ 
+2017-12-13 15:42:56.5797|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:dbc8473e-7438-ea8f-1633-30e4a50bb99e
+ 
+2017-12-13 15:59:04.7043|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 15:59:04.8557|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.1933506)
+ 
+2017-12-13 15:59:12.4074|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:9b44a5d6-042b-8480-dac4-1941a6e7d604
+ 
+2017-12-13 15:59:42.7147|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:1777bced-33cf-f782-adc7-8dbf1555edb3
+ 
+2017-12-13 15:59:43.7737|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(500) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:31.3601671)
+Content-Type:application/json
+{"error":"A timeout occured after 30000ms selecting a server using CompositeServerSelector{ Selectors = MongoDB.Driver.MongoClient+AreSessionsSupportedServerSelector, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 } }. Client view of cluster state is { ClusterId : \"1\", ConnectionMode : \"Automatic\", Type : \"Unknown\", State : \"Disconnected\", Servers : [{ ServerId: \"{ ClusterId : 1, EndPoint : \"Unspecified/localhost:27017\" }\", EndPoint: \"Unspecified/localhost:27017\", State: \"Disconnected\", Type: \"Unknown\", HeartbeatException: \"MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server. ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: 無法連線，因為目標電腦拒絕連線。 [::1]:27017\r\n   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)\r\n   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)\r\n   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at MongoDB.Driver.Core.Connections.TcpStreamFactory.<ConnectAsync>d__7.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at MongoDB.Driver.Core.Connections.TcpStreamFactory.<CreateStreamAsync>d__4.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at MongoDB.Driver.Core.Connections.BinaryConnection.<OpenHelperAsync>d__48.MoveNext()\r\n   --- End of inner exception stack trace ---\r\n   at MongoDB.Driver.Core.Connections.BinaryConnection.<OpenHelperAsync>d__48.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at MongoDB.Driver.Core.Servers.ServerMonitor.<HeartbeatAsync>d__27.MoveNext()\" }] }."} 
+2017-12-13 16:00:12.9743|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(500) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:30.2668564)
+Content-Type:application/json
+{"error":"A timeout occured after 30000ms selecting a server using CompositeServerSelector{ Selectors = MongoDB.Driver.MongoClient+AreSessionsSupportedServerSelector, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 } }. Client view of cluster state is { ClusterId : \"1\", ConnectionMode : \"Automatic\", Type : \"Unknown\", State : \"Disconnected\", Servers : [{ ServerId: \"{ ClusterId : 1, EndPoint : \"Unspecified/localhost:27017\" }\", EndPoint: \"Unspecified/localhost:27017\", State: \"Disconnected\", Type: \"Unknown\", HeartbeatException: \"MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server. ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: 無法連線，因為目標電腦拒絕連線。 [::1]:27017\r\n   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)\r\n   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)\r\n   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at MongoDB.Driver.Core.Connections.TcpStreamFactory.<ConnectAsync>d__7.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at MongoDB.Driver.Core.Connections.TcpStreamFactory.<CreateStreamAsync>d__4.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at MongoDB.Driver.Core.Connections.BinaryConnection.<OpenHelperAsync>d__48.MoveNext()\r\n   --- End of inner exception stack trace ---\r\n   at MongoDB.Driver.Core.Connections.BinaryConnection.<OpenHelperAsync>d__48.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at MongoDB.Driver.Core.Servers.ServerMonitor.<HeartbeatAsync>d__27.MoveNext()\" }] }."} 
+2017-12-13 16:01:38.5867|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 16:01:38.7295|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2116026)
+ 
+2017-12-13 16:01:45.0588|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:c85b2bf5-d272-e770-8944-eb02df3df254
+ 
+2017-12-13 16:01:46.3687|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(500) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:01.3028031)
+Content-Type:application/json
+{"error":"Element 'Message_Data' does not match any field or property of class PushServer.Model.FPS_PushHistory."} 
+2017-12-13 16:02:30.9258|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 16:02:31.0510|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2019528)
+ 
+2017-12-13 16:02:35.9543|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:cd44c31a-d615-4282-5707-fa20bc1b1c26
+ 
+2017-12-13 16:02:36.9155|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:00.9545546)
+Content-Type:text/plain; charset=utf-8
+[{"_id":{"Timestamp":1513145195,"Machine":5520659,"Pid":-12558,"Increment":9824375,"CreationTime":"2017-12-13T06:06:35Z"},"MessageSN":"201712130001","FCMAuth":"FIRSTFCMAUTH","DeviceID":"DEVICEID","Message_Data":"MessageData","Message_Noti":"MessageNoti","Status":"S","Error":"ErrorMessage","PushTime":"2017-12-13 14:02:04.000","PushID":"PushID"}] 
+2017-12-13 17:27:15.4726|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 17:27:15.6714|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2706408)
+ 
+2017-12-13 17:27:29.0594|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:1be75083-0494-3673-d6d7-c574dff60f83
+ 
+2017-12-13 17:27:30.8110|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:01.7429057)
+Content-Type:text/plain; charset=utf-8
+[{"_id":{"Timestamp":1513145195,"Machine":5520659,"Pid":-12558,"Increment":9824375,"CreationTime":"2017-12-13T06:06:35Z"},"MessageSN":"201712130001","FCMAuth":"FIRSTFCMAUTH","DeviceID":"DEVICEID","Message_Data":"MessageData","Message_Noti":"MessageNoti","Status":"S","Error":"ErrorMessage","PushTime":"2017-12-13 14:02:04.000","PushID":"PushID"}] 
+2017-12-13 17:29:22.4367|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:application/json
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:99c65d78-58c4-c892-38ff-2eb3c446b123
+ 
+2017-12-13 17:29:22.7442|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:00.3167071)
+Content-Type:application/json; charset=utf-8
+"[{\"_id\":{\"Timestamp\":1513145195,\"Machine\":5520659,\"Pid\":-12558,\"Increment\":9824375,\"CreationTime\":\"2017-12-13T06:06:35Z\"},\"MessageSN\":\"201712130001\",\"FCMAuth\":\"FIRSTFCMAUTH\",\"DeviceID\":\"DEVICEID\",\"Message_Data\":\"MessageData\",\"Message_Noti\":\"MessageNoti\",\"Status\":\"S\",\"Error\":\"ErrorMessage\",\"PushTime\":\"2017-12-13 14:02:04.000\",\"PushID\":\"PushID\"}]" 
+2017-12-13 17:29:44.7964|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:application/json
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:63b85ae9-79bc-1bfc-1620-647013a84ba7
+ 
+2017-12-13 17:29:44.9133|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:00.1196151)
+Content-Type:application/json; charset=utf-8
+"[{\"_id\":{\"Timestamp\":1513145195,\"Machine\":5520659,\"Pid\":-12558,\"Increment\":9824375,\"CreationTime\":\"2017-12-13T06:06:35Z\"},\"MessageSN\":\"201712130001\",\"FCMAuth\":\"FIRSTFCMAUTH\",\"DeviceID\":\"DEVICEID\",\"Message_Data\":\"MessageData\",\"Message_Noti\":\"MessageNoti\",\"Status\":\"S\",\"Error\":\"ErrorMessage\",\"PushTime\":\"2017-12-13 14:02:04.000\",\"PushID\":\"PushID\"}]" 
+2017-12-13 17:29:49.3565|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+Postman-Token:323c2d42-4dbb-7173-b299-1a48fae438eb
+ 
+2017-12-13 17:29:49.4792|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:00.1170062)
+Content-Type:text/plain; charset=utf-8
+[{"_id":{"Timestamp":1513145195,"Machine":5520659,"Pid":-12558,"Increment":9824375,"CreationTime":"2017-12-13T06:06:35Z"},"MessageSN":"201712130001","FCMAuth":"FIRSTFCMAUTH","DeviceID":"DEVICEID","Message_Data":"MessageData","Message_Noti":"MessageNoti","Status":"S","Error":"ErrorMessage","PushTime":"2017-12-13 14:02:04.000","PushID":"PushID"}] 
+2017-12-13 17:33:16.4509|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-13 17:33:16.5946|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.1896217)
+ 
+2017-12-13 17:33:22.0123|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Postman-Token:53342135-6773-0279-54d8-b8ad93ee3752
+ 
+2017-12-13 17:33:22.9260|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:00.9070008)
+Content-Type:application/json; charset=utf-8
+[{"_id":{"timestamp":1513145195,"machine":5520659,"pid":-12558,"increment":9824375,"creationTime":"2017-12-13T06:06:35Z"},"messageSN":"201712130001","fcmAuth":"FIRSTFCMAUTH","deviceID":"DEVICEID","message_Data":"MessageData","message_Noti":"MessageNoti","status":"S","error":"ErrorMessage","pushTime":"2017-12-13 14:02:04.000","pushID":"PushID"}] 
+2017-12-13 17:33:31.3877|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+ 
+2017-12-13 17:33:31.5105|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) GET http://localhost:5000/api/PushMessage  (Duration = 00:00:00.1228564)
+Content-Type:application/json; charset=utf-8
+[{"_id":{"timestamp":1513145195,"machine":5520659,"pid":-12558,"increment":9824375,"creationTime":"2017-12-13T06:06:35Z"},"messageSN":"201712130001","fcmAuth":"FIRSTFCMAUTH","deviceID":"DEVICEID","message_Data":"MessageData","message_Noti":"MessageNoti","status":"S","error":"ErrorMessage","pushTime":"2017-12-13 14:02:04.000","pushID":"PushID"}] 

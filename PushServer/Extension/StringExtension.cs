@@ -15,5 +15,5 @@ namespace PushServer.Extension
                 return true;
             return false;
         }
-    }   
+    }  
 }

@@ -1,0 +1,206 @@
+2017-12-18 10:02:04.5964-----------0001:PushServer Start Logging---------------------
+2017-12-18 10:02:04.3900| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-18 10:02:04.9272|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Accept-Encoding:gzip, deflate, br
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests:1
+ 
+2017-12-18 10:02:05.4579|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.8053608)
+ 
+2017-12-18 10:02:05.4869| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=1101.0093, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 1101.0093ms 404  
+2017-12-18 10:03:24.5332| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=647, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 647 
+2017-12-18 10:03:24.6137|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:647
+Postman-Token:865e35ea-7fb0-1590-0603-1f6b819dfc0f
+{
+  "MessageSN":"",
+  "FCMAuth":"AAAAte346S4:APA91bEpoxKa2HOaC_JyEZiJvdDNpYND0A2cJJsq0WGRys6PGgIqhUsRGuFw78DgotPyjBRReg7ulHZpMteV-adIA36M01G8T7Ln4YQ8appyiOzCE1oegAqIIYLV-lSjrdBa3u-uCdjg",
+  "TargetDeviceID":"duUrYPFjcPE:APA91bEO6tIAU6HtQFf0kzdhono-J2QHoaYxY59e3aPp6LsCx9BNBhktwsL3EdfnCDw1lzeFWMLBY1bfWqN-gwk0jTpAfvi5KZDjI234bgF9hwYQCVmnsBUjnKi_eLUxvK7m6vjfYjSe",
+    "Data":{
+    "body" : "great match!",
+    "title" : "Portugal vs. Denmark",
+    "icon" : "myicon"
+	},
+  "Notification":{
+    "body" : "great match!",
+    "title" : "Portugal vs. Denmark",
+    "icon" : "myicon"
+	},
+  "DateTime":"",
+  "Status":"",
+  "ErrorMsg":""
+} 
+2017-12-18 10:03:25.9776| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.PushMessage", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.PushMessage) - ModelState is Valid 
+2017-12-18 10:05:03.3047| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-18 10:05:03.3776| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=98463.1128, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 98463.1128ms 
+2017-12-18 10:05:03.3959|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) POST http://localhost:5000/api/PushMessage  (Duration = 00:01:38.8335920)
+Content-Type:application/json; charset=utf-8
+{"messageSN":"","fcmAuth":"AAAAte346S4:APA91bEpoxKa2HOaC_JyEZiJvdDNpYND0A2cJJsq0WGRys6PGgIqhUsRGuFw78DgotPyjBRReg7ulHZpMteV-adIA36M01G8T7Ln4YQ8appyiOzCE1oegAqIIYLV-lSjrdBa3u-uCdjg","targetDeviceID":"duUrYPFjcPE:APA91bEO6tIAU6HtQFf0kzdhono-J2QHoaYxY59e3aPp6LsCx9BNBhktwsL3EdfnCDw1lzeFWMLBY1bfWqN-gwk0jTpAfvi5KZDjI234bgF9hwYQCVmnsBUjnKi_eLUxvK7m6vjfYjSe","data":{"body":"great match!","title":"Portugal vs. Denmark","icon":"myicon"},"notification":{"body":"great match!","title":"Portugal vs. Denmark","icon":"myicon"},"dataTime":null,"status":"","errorMsg":""} 
+2017-12-18 10:05:03.4084| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=98875.2711, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 98875.2711ms 200 application/json; charset=utf-8 
+2017-12-18 10:05:53.2944| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=647, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 647 
+2017-12-18 10:05:53.3133|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:647
+Postman-Token:dd0614f8-5637-a34d-aef7-6c92c288a5b1
+{
+  "MessageSN":"",
+  "FCMAuth":"AAAAte346S4:APA91bEpoxKa2HOaC_JyEZiJvdDNpYND0A2cJJsq0WGRys6PGgIqhUsRGuFw78DgotPyjBRReg7ulHZpMteV-adIA36M01G8T7Ln4YQ8appyiOzCE1oegAqIIYLV-lSjrdBa3u-uCdjg",
+  "TargetDeviceID":"duUrYPFjcPE:APA91bEO6tIAU6HtQFf0kzdhono-J2QHoaYxY59e3aPp6LsCx9BNBhktwsL3EdfnCDw1lzeFWMLBY1bfWqN-gwk0jTpAfvi5KZDjI234bgF9hwYQCVmnsBUjnKi_eLUxvK7m6vjfYjSe",
+    "Data":{
+    "body" : "great match!",
+    "title" : "Portugal vs. Denmark",
+    "icon" : "myicon"
+	},
+  "Notification":{
+    "body" : "great match!",
+    "title" : "Portugal vs. Denmark",
+    "icon" : "myicon"
+	},
+  "DateTime":"",
+  "Status":"",
+  "ErrorMsg":""
+} 
+2017-12-18 10:05:53.3834| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.PushMessage", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.PushMessage) - ModelState is Valid 
+2017-12-18 10:15:37.5355| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-18 10:15:37.7962|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+Upgrade-Insecure-Requests:1
+ 
+2017-12-18 10:15:38.0059|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2538155)
+ 
+2017-12-18 10:15:38.0193| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=493.4724, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 493.4724ms 404  
+2017-12-18 10:15:45.8884| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=599, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 599 
+2017-12-18 10:15:45.8884|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:599
+Postman-Token:ee755564-1fd8-69ee-b43a-208a70d63591
+{
+  "MessageSN":"",
+  "FCMAuth":"AAAAte346S4:APA91bEpoxKa2HOaC_JyEZiJvdDNpYND0A2cJJsq0WGRys6PGgIqhUsRGuFw78DgotPyjBRReg7ulHZpMteV-adIA36M01G8T7Ln4YQ8appyiOzCE1oegAqIIYLV-lSjrdBa3u-uCdjg",
+  "TargetDeviceID":"cnYq8bgDam8:APA91bF9HHz1bBCxBB7HJDdFwZz3G8zIxrMoFO9TEl82FJLDrUJFidKZsrEnb7ZkwoSuH0V_dlkElHy2wJZnrWOsbmxSUPbE2ZCXH3i8i4fekX29mNO_n01hblgIe_oI7sepOU4KAkRZ",
+    "Data":{
+    "body" : "great match!",
+    "title" : "Portugal vs. Denmark"
+	},
+  "Notification":{
+    "body" : "great match!",
+    "title" : "Portugal vs. Denmark"
+	},
+  "DateTime":"",
+  "Status":"",
+  "ErrorMsg":""
+} 
+2017-12-18 10:15:46.3754| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.PushMessage", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.PushMessage) - ModelState is Valid 
+2017-12-18 10:15:46.8021| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-18 10:15:46.8643| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=905.8231, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 905.8231ms 
+2017-12-18 10:15:46.8888|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) POST http://localhost:5000/api/PushMessage  (Duration = 00:00:00.9946315)
+Content-Type:application/json; charset=utf-8
+{"messageSN":"2017121810154678702","fcmAuth":null,"targetDeviceID":null,"data":null,"notification":null,"dataTime":"2017/12/18 10:15:46","status":"S","errorMsg":""} 
+2017-12-18 10:15:46.9289| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=1040.5631, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 1040.5631ms 200 application/json; charset=utf-8 
+2017-12-18 11:17:12.0461| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-18 11:17:12.6695|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-18 11:17:13.0910|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.6909257)
+ 
+2017-12-18 11:17:13.1120| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=1085.3586, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 1085.3586ms 404  
+2017-12-18 11:17:53.5794| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=599, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 599 
+2017-12-18 11:17:53.5986|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:599
+Postman-Token:e92ef4b8-7f8e-8b0f-d920-1c63bfd4a33a
+{
+  "MessageSN":"",
+  "FCMAuth":"AAAAte346S4:APA91bEpoxKa2HOaC_JyEZiJvdDNpYND0A2cJJsq0WGRys6PGgIqhUsRGuFw78DgotPyjBRReg7ulHZpMteV-adIA36M01G8T7Ln4YQ8appyiOzCE1oegAqIIYLV-lSjrdBa3u-uCdjg",
+  "TargetDeviceID":"cnYq8bgDam8:APA91bF9HHz1bBCxBB7HJDdFwZz3G8zIxrMoFO9TEl82FJLDrUJFidKZsrEnb7ZkwoSuH0V_dlkElHy2wJZnrWOsbmxSUPbE2ZCXH3i8i4fekX29mNO_n01hblgIe_oI7sepOU4KAkRZ",
+    "Data":{
+    "body" : "great match!",
+    "title" : "Portugal vs. Denmark"
+	},
+  "Notification":{
+    "body" : "great match!",
+    "title" : "Portugal vs. Denmark"
+	},
+  "DateTime":"",
+  "Status":"",
+  "ErrorMsg":""
+} 
+2017-12-18 11:17:54.5742| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.PushMessage", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.PushMessage) - ModelState is Valid 
+2017-12-18 11:17:55.3585| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-18 11:17:55.4301| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=1624.9773, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 1624.9773ms 
+2017-12-18 11:17:55.4650|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) POST http://localhost:5000/api/PushMessage  (Duration = 00:00:01.8785626)
+Content-Type:application/json; charset=utf-8
+{"messageSN":"2017121811175554573","fcmAuth":null,"targetDeviceID":null,"data":null,"notification":null,"dataTime":"2017/12/18 11:17:55","status":"S","errorMsg":""} 
+2017-12-18 11:17:55.5010| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=1921.5973, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 1921.5973ms 200 application/json; charset=utf-8 

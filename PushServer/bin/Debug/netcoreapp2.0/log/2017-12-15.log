@@ -1,0 +1,187 @@
+2017-12-15 09:48:17.9666-----------0001:PushServer Start Logging---------------------
+2017-12-15 09:48:17.8422| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-15 09:48:18.0359|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-15 09:48:18.2494|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.2552502)
+ 
+2017-12-15 09:48:18.2624| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=426.7746, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 426.7746ms 404  
+2017-12-15 09:48:46.4496| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-15 09:48:46.4786|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Cache-Control:max-age=0
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-15 09:48:46.4943|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.0177222)
+ 
+2017-12-15 09:48:46.5024| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=52.8008, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 52.8008ms 404  
+2017-12-15 09:49:18.3189| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage/ALL/2017122414/2017122415, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/api/PushMessage/ALL/2017122414/2017122415   
+2017-12-15 09:49:18.3364|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/api/PushMessage/ALL/2017122414/2017122415 
+Cache-Control:no-cache
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization:123
+Host:localhost:5000
+ 
+2017-12-15 09:49:19.0244| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), Arguments="ALL", "2017122414", "2017122415", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Get (PushServer) with arguments (ALL, 2017122414, 2017122415) - ModelState is Valid 
+2017-12-15 09:49:19.5182| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-15 09:49:19.6568| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Get (PushServer), ElapsedMilliseconds=1205.6253, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Get (PushServer) in 1205.6253ms 
+2017-12-15 09:49:19.7027|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) GET http://localhost:5000/api/PushMessage/ALL/2017122414/2017122415  (Duration = 00:00:01.3759888)
+Content-Type:application/json; charset=utf-8
+[{"messageSN":"201712130001","fcmAuth":"FIRSTFCMAUTH","targetDeviceID":"DEVICEID","data":"MessageData","notification":"MessageNoti","dataTime":"2017/12/24 14:25:59","status":"S","errorMsg":"ErrorMessage"}] 
+2017-12-15 09:49:19.7523| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=1433.3848, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 1433.3848ms 200 application/json; charset=utf-8 
+2017-12-15 10:25:48.3523| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-15 10:25:48.5704|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Accept-Encoding:gzip, deflate, br
+Upgrade-Insecure-Requests:1
+ 
+2017-12-15 10:25:48.7194|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.1877440)
+ 
+2017-12-15 10:25:48.7377| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=393.6777, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 393.6777ms 404  
+2017-12-15 10:25:59.2837| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=70, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 70 
+2017-12-15 10:25:59.3781|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:70
+Postman-Token:14101cb4-5200-7d96-3254-18b47dd14409
+{
+    "MessageSN": "201712140002",
+        "FCMAuth": "FIRSTFCMAUTH"
+} 
+2017-12-15 10:25:59.9190| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.PushMessage", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.PushMessage) - ModelState is Valid 
+2017-12-15 10:26:21.9615| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=22529.3111, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 22529.3111ms 
+2017-12-15 10:26:22.0802|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(500) POST http://localhost:5000/api/PushMessage  (Duration = 00:00:22.7869400)
+Content-Type:application/json
+{"error":"Object reference not set to an instance of an object."} 
+2017-12-15 10:26:22.0932| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=22809.6395, StatusCode=500, ContentType=application/json, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 22809.6395ms 500 application/json 
+2017-12-15 10:29:03.6102| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-15 10:29:03.8119|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Connection:keep-alive
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests:1
+ 
+2017-12-15 10:29:03.9514|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.1810440)
+ 
+2017-12-15 10:29:03.9514| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=363.6977, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 363.6977ms 404  
+2017-12-15 10:29:06.9732| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=70, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 70 
+2017-12-15 10:29:06.9925|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:70
+Postman-Token:6e267d7f-190c-8d0d-dd07-7012cfb71ebf
+{
+    "MessageSN": "201712140002",
+        "FCMAuth": "FIRSTFCMAUTH"
+} 
+2017-12-15 10:29:07.4215| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.PushMessage", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.PushMessage) - ModelState is Valid 
+2017-12-15 10:29:07.4620| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-15 10:29:07.5022| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=457.2395, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 457.2395ms 
+2017-12-15 10:29:07.5262|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) POST http://localhost:5000/api/PushMessage  (Duration = 00:00:00.5452933)
+Content-Type:application/json; charset=utf-8
+{"messageSN":"2017121510290717935","fcmAuth":null,"targetDeviceID":null,"data":null,"notification":null,"dataTime":"2017-12-15T10:29:07Z","status":null,"errorMsg":null} 
+2017-12-15 10:29:07.5377| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=564.4937, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 564.4937ms 200 application/json; charset=utf-8 
+2017-12-15 10:30:37.3505| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=GET, ContentType=, ContentLength=, Scheme=http, Host=localhost:5000, PathBase=, Path=/, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-12-15 10:30:37.5673|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request GET http://localhost:5000/ 
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests:1
+ 
+2017-12-15 10:30:37.7159|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(404) GET http://localhost:5000/  (Duration = 00:00:00.1974151)
+ 
+2017-12-15 10:30:37.7159| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=382.0986, StatusCode=404, ContentType=, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 382.0986ms 404  
+2017-12-15 10:30:40.4983| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |Protocol=HTTP/1.1, Method=POST, ContentType=application/json, ContentLength=70, Scheme=http, Host=localhost:5000, PathBase=, Path=/api/PushMessage, QueryString=, EventId_Id=1, EventId_Name=, EventId=1
+Request starting HTTP/1.1 POST http://localhost:5000/api/PushMessage application/json 70 
+2017-12-15 10:30:40.4983|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Request POST http://localhost:5000/api/PushMessage 
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:application/json
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Host:localhost:5000
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Origin:chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Content-Length:70
+Postman-Token:92d2db54-b994-260c-b03a-4d1ee3298e17
+{
+    "MessageSN": "201712140002",
+        "FCMAuth": "FIRSTFCMAUTH"
+} 
+2017-12-15 10:30:40.9551| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), Arguments="PushServer.Model.PushMessage", ValidationState=Valid, EventId_Id=1, EventId_Name=, EventId=1
+Executing action method PushServer.Controllers.PushMessageController.Post (PushServer) with arguments (PushServer.Model.PushMessage) - ModelState is Valid 
+2017-12-15 10:30:40.9971| INFO ||Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|  |Value=Microsoft.AspNetCore.Mvc.ControllerContext, EventId_Id=1, EventId_Name=, EventId=1
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-12-15 10:30:41.0398| INFO ||Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|  |ActionName=PushServer.Controllers.PushMessageController.Post (PushServer), ElapsedMilliseconds=470.9475, EventId_Id=2, EventId_Name=, EventId=2
+Executed action PushServer.Controllers.PushMessageController.Post (PushServer) in 470.9475ms 
+2017-12-15 10:30:41.0562|DEBUG ||WDev.AspNetCore.Middleware.HttpLoggingMiddleware|  |
+Response(200) POST http://localhost:5000/api/PushMessage  (Duration = 00:00:00.5512986)
+Content-Type:application/json; charset=utf-8
+{"messageSN":"2017121510304059256","fcmAuth":null,"targetDeviceID":null,"data":null,"notification":null,"dataTime":"2017-12-15T10:30:40+08:00","status":null,"errorMsg":null} 
+2017-12-15 10:30:41.0699| INFO ||Microsoft.AspNetCore.Hosting.Internal.WebHost|  |ElapsedMilliseconds=571.612, StatusCode=200, ContentType=application/json; charset=utf-8, EventId_Id=2, EventId_Name=, EventId=2
+Request finished in 571.612ms 200 application/json; charset=utf-8 
